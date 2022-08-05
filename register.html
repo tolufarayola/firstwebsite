@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="bref" target="_blank" href="index.html"><b>Home</b></a>
+      <a class="bref" target="_blank" href="login.html"><b>Login</b></a>
+      <a class="bref" target="_blank" href="contact.html"><b>Contact Me</b></a>
+    </header>
+    <main>
+      <div class="container">
+        <form action="registrationsuccessful.html">
+          <h1>Register</h1>
+          <p>
+            Please register on my page to get monthly newsletter about latest
+            news in Power Industry in West Africa
+          </p>
+          <hr />
+          <label for="fname"><b>First Name *</b></label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your First Name"
+            required
+          />
+          <label for="fname"><b>Middle Name</b></label>
+          <input
+            type="text"
+            id="mname"
+            name="middlename"
+            placeholder="Your Middle Name"
+          />
+          <label for="lname"><b>Last Name *</b></label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your Last Name"
+            required
+          />
+          <label for="phone"><b>Mobile Number *</b></label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Enter Mobile Number"
+            required
+          /><br />
+          <label for="gender"><b>Gender *</b></label>
+          <select name="gender" id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option></select
+          ><br />
+          <label for="country"><b>Country of Origin</b></label>
+          <select name="country" id="country">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Angola">Angola</option>
+            <option value="Gambia">Gambia</option>
+            <option value="Cameroun">Cameroun</option></select
+          ><br />
+          <label for="country"><b>Country of Residence</b></label>
+          <select name="country" id="country">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Angola">Angola</option>
+            <option value="Gambia">Gambia</option>
+            <option value="Cameroun">Cameroun</option></select
+          ><br />
+          <label for="state/provice"><b>State/Province</b></label>
+          <input
+            type="text"
+            id="state/province"
+            name="state/province"
+            placeholder="State/Province"
+          /><br />
+          <label for="email"><b>Email *</b></label>
+          <input type="email" name="email" id="email" required /><br />
+          <label for="password"><b>Password *</b></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            minlength="5"
+            maxlength="10"
+          /><br />
+          <label for="password"><b>Confirm Password *</b></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            minlength="5"
+            maxlength="10"
+          /><br />
+          <button style="color: white" class="contact" type="submit">
+            <b>Register</b>
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+  <footer style="padding: 5px 100px 2px 335px">
+    <h4>
+      Send an Email:
+      <button class="button">
+        <a target="blank" href="mailto:farayolatolulope@gmail.com"
+          ><b>Email</b></a
+        >
+      </button>
+    </h4>
+    <h4>
+      Follow Me:
+      <button class="button">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/tolulope-farayola-msc-bsc-8283859a/"
+          ><b>LinkedIn</b></a
+        >
+      </button>
+      <button class="button">
+        <a target="_blank" href="https://twitter.com/Tolufarayola"
+          ><b>Twitter</b></a
+        >
+      </button>
+      <button class="button">
+        <a target="_blank" href="https://www.instagram.com/tolulopefarayola/"
+          ><b>Instagram</b></a
+        >
+      </button>
+      <button class="button">
+        <a target="_blank" href="https://www.facebook.com/tolulope.farayola/"
+          ><b>Facebook</b></a
+        >
+      </button>
+    </h4>
+    <p>Tolulope Farayola. &copy; 2022</p>
+  </footer>
+</html>

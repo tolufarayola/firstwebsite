@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    h1,
+    p {
+      text-align: center;
+      color: brown;
+    }
+
+    button{
+      color: white;
+      margin-top: 30px;
+    }
+    
+  </style>
+  <body>
+    <header>
+      <a class="bref" target="_blank" href="index.html"><b>Home</b></a>
+      <a class="bref" target="_blank" href="contact.html"><b>Contact Me</b></a>
+      <a class="bref" target="_blank" href="register.html"><b>Register</b></a>
+    </header>
+    <main>
+    <h1>WELCOME BACK!</h1>
+    <p>Please fill below to login</p>
+    <hr />
+    <div class="container">
+      <form action="homepage.html">
+        <label for="email"><b>Email</b></label>
+        <input type="email" name="email" id="email" required />
+        <label for="password"><b>Password</b></label>
+        <input type="password" name="password" id="password" required minlength="5" maxlength="10"/>
+        <input
+          type="checkbox"
+          name="rememberme"
+          id="rememberme"
+          value="Remember me"
+        />
+        <label for="rememberme">Remember me</label>
+        <br />
+        <a  target="_blank" href="contact.html">Forgot password?</a>
+        <br />
+        <button class="contact" type="submit"><b>Sign In</b></button>
+      </form>
+    </main>
+    </div>
+  </body>
+  <footer>
+    <p>Tolulope Farayola. &copy; 2022</p>
+  </footer>
+</html>
